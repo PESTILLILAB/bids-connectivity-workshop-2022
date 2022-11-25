@@ -1,6 +1,4 @@
 # BIDS Connectivity Project
-
-
 ### Developing a practical standard to report brain connectivity experiments.
 
 The Brain Imaging Data Structure (BIDS) is community-driven standard meant to maximize neuroimaging data sharing, and facilitate analysis tool development. Over the past year the standard grew tremendously. BIDS was initially scoped to MRI data of the brain, but the standard has set up a solid infrastructure to steer the community and has been extended to cover a range of other modalities (PET, EEG, MEG, ECoG). Since its first announcement, BIDS has evolved to become an organized community with shared governance and a strong impact well beyond the U.S. BRAIN initiative. To date, 131 individuals among faculty, students, and postdocs contributed to the development of the standard and the article describing BIDS has been cited 277 times.
@@ -9,13 +7,8 @@ Besides the success, expansion, and description of multiple data modalities, gap
 
 The aim of the present project is to extend the BIDS standard to encompass derivatives resulting from experiments related to macroscopic brain connectivity. The project is supported by the U.S. National Institutes of Health NIMH R01-MH126699.
 
+## Run Locally
 
-```
-convert static/img/showcase/people@2x.png -resize 500\> static/img/showcase/people.png
-convert static/img/showcase/people@2x.png -resize 1000\> static/img/showcase/people@2x.png
-convert static/img/showcase/people-mobile.png -resize 800\> static/img/showcase/people-mobile.png
-
-convert static/img/overview/bids-brain@2x.png -resize 500\> static/img/overview/bids-brain.png
-convert static/img/overview/bids-brain@2x.png -resize 1000\> static/img/overview/bids-brain@2x.png
-convert static/img/overview/bids-brain-mobile.png -resize 800\> static/img/overview/bids-brain-mobile.png
+```bash
+hugo server -D
 ```
