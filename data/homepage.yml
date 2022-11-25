@@ -15,7 +15,7 @@ showcase:
   button:
     icon: icon-mail-fill
     btnText: Contact
-    URL: https://radity.com/en/contact/
+    URL: mailto:pestilli@utexas.edu?subject=BIDS%20Connectivity%20Workshop%202022
 
   socialLinks:
     - icon: profile-fill
@@ -221,7 +221,7 @@ registration:
     Workshop participants are asked to commit their time to develop a BIDS connectivity standard during the workshop and to continue
     developing the standard in the 2 years after the workshop by integrating a wider community feedback and developing an complete
     standard specification with example software for testing. If you are an expert in Connectivity data and  interested in
-    participating in the workshop please email email [Franco Pestilli](pestilli@utexas.edu).
+    participating in the workshop please email [Franco Pestilli](mailto:pestilli@utexas.edu).
 
   button:
     icon: "icon-mail-fill"
@@ -233,7 +233,7 @@ contact:
   enable: true
   title: "Contacts"
   content: |
-    [Peer Herholz](herholz.peer@gmail.com) and [Sandra Hanekamp](sandrahanekamp@utexas.edu).
+    [Peer Herholz](mailto:herholz.peer@gmail.com) and [Sandra Hanekamp](mailto:sandrahanekamp@utexas.edu).
   department:
     title: "Location"
     department: Department of Psychology, The University of Texas at Austin
